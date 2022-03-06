@@ -1,0 +1,7 @@
+{
+  "mainAPIPort": "56300",
+  "systemAPIPort": "56301",
+  "userAPIPort": "56302",
+  "calculateAPIPort": "56304",
+  "collectorAPIPort": "56306"
+}

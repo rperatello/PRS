@@ -1,0 +1,12 @@
+{
+  "DatabaseSettings": {
+    "DBEngine": "sqlServer",
+    "Timeout": 120
+  },
+  "ConnectionStrings": {
+    "PostgreSQLConnection": "Server=ec2-54-225-228-142.compute-1.amazonaws.com;Port=5432;Database=db685ed8f2qs97;User Id=vylvfnzvjvlzam;Password=b09d99032d97246570fff6b770e0b44898268a63b9643f1bc56f1659951b43ea;",
+    "OracleConnection": "Data Source=127.0.0.1;Initial Catalog=myDataBase;user id=admin;password=myPassword;",
+    "MySQLConnection": "Server=127.0.0.1;Port=3306;Database=myDataBase;Uid=root;Pwd=myPassword;",
+    "SQLServerConnection": "Server=.\\SQLEXPRESS;Database=PRS6;User Id=user;password=123456;"
+  }
+}
