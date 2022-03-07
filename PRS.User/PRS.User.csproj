@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>ffc29396-57ba-4d6c-8541-ae27a38f3c01</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PRS.Models\PRS.Models.csproj" />
+    <ProjectReference Include="..\PRS.Repository\PRS.Repository.csproj" />
+    <ProjectReference Include="..\PRS.Utils\PRS.Utils.csproj" />
+  </ItemGroup>
+
+
+</Project>
